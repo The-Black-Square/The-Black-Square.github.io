@@ -2,10 +2,6 @@ import { defineConfigWithTheme } from 'vitepress'
 import type { ThemeConfig } from 'vitepress-carbon'
 import baseConfig from 'vitepress-carbon/config'
 
-const ateneaSB =[
-  //{ text: 'Markdown Examples', link: '/markdown-examples' },
-  //{ text: 'Runtime API Examples', link: '/api-examples' }
-];
 
 // https://vitepress.dev/reference/site-config
 export default defineConfigWithTheme<ThemeConfig>({
@@ -31,18 +27,35 @@ export default defineConfigWithTheme<ThemeConfig>({
     },
     
     sidebar: 
-      {
-        '/': ateneaSB,
-        '/atenea/': ateneaSB,
-        '/hermes/': ateneaSB,
-        '/efesto/': ateneaSB,
-        '/recursos/': ateneaSB
-      }
-    ,
-
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/proteo5/' },
-      { icon: 'twitter', link: 'https://twitter.com/proteo5' }
-    ]
+    {
+      // This sidebar gets displayed when a user
+      // is on `guide` directory.
+      '/atenea/': [
+        {
+          text: 'Atenea',
+          items: [
+            { text: 'Inicio', link: '/atenea/' }
+          ]
+        }
+      ],
+      '/hermes/': [
+        {
+          text: 'Hermes',
+          items: [
+            { text: 'Inicio', link: '/hermes/' },
+            { text: 'Introducción', link: '/hermes/intro' }
+           
+          ]
+        }
+      ],
+      '/hefesto/': [
+        {
+          text: 'Hefesto',
+          items: [
+            { text: 'Inicio', link: '/hefesto/' }
+          ]
+        }
+      ],
+    }
   }
 })

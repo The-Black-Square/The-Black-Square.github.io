@@ -14,7 +14,7 @@ hero:
       text: Recursos
       link: /recursos/
     - theme: alt
-      text: Acerca de este sitio
+      text: Introducción/Acerca de este sitio
       link: /acerca-de
 
 features:
@@ -24,6 +24,7 @@ features:
   - icon: 👔
     title: Hermes
     details: Artículos sobre administración del desarrollo de software.
+    link: /hermes/
   - icon: 🖥️
     title: Hefesto
     details: Artículos sobre el desarrollo de software.

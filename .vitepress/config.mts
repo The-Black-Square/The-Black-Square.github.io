@@ -16,9 +16,8 @@ export default defineConfigWithTheme<ThemeConfig>({
     logo:'/img/Assets.xcassets/AppIcon.appiconset/40.png',
     nav: [
       { text: 'Inicio', link: '/' },
-      { text: 'Atenea', link: '/atenea/' },
-      { text: 'Hermes', link: '/hermes/' },
-      { text: 'Hefesto', link: '/hefesto/' },
+      { text: 'General', link: '/general/' },
+      { text: 'Introducción', link: '/intro/' },
       { text: 'Recursos', link: '/recursos/' }
     ],
 
@@ -33,29 +32,30 @@ export default defineConfigWithTheme<ThemeConfig>({
     {
       // This sidebar gets displayed when a user
       // is on `guide` directory.
-      '/atenea/': [
+      '/general/': [
         {
-          text: 'Atenea',
+          text: 'General',
           items: [
-            { text: 'Inicio', link: '/atenea/' }
+            { text: 'Inicio', link: '/general/' },
+            { text: 'Steve Jobs y la Caligrafía', link: '/general/0001' }
           ]
         }
       ],
-      '/hermes/': [
+      '/intro/': [
         {
-          text: 'Hermes',
+          text: 'Introducción',
           items: [
-            { text: 'Inicio', link: '/hermes/' },
-            { text: 'Introducción', link: '/hermes/intro' }
+            { text: 'Inicio', link: '/intro/' },
+          
            
           ]
         }
       ],
-      '/hefesto/': [
+      '/recursos/': [
         {
-          text: 'Hefesto',
+          text: 'Recursos',
           items: [
-            { text: 'Inicio', link: '/hefesto/' }
+            { text: 'Inicio', link: '/recursos/' }
           ]
         }
       ],

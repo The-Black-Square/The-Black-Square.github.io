@@ -24,8 +24,8 @@ features:
     link: /general/
   - icon: 👔
     title: Introducción
-    details: Artículos sobre administración del desarrollo de software.
-    link: /hermes/
+    details: Introducción a la administración del desarrollo de software.
+    link: /intro/
   - icon: 🖥️
     title: Gestión y operación
     details: Gestión y operación de desarrollo.

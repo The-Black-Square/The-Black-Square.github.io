@@ -37,7 +37,8 @@ export default defineConfigWithTheme<ThemeConfig>({
           text: 'General',
           items: [
             { text: 'Inicio', link: '/general/' },
-            { text: 'Steve Jobs y la Caligrafía', link: '/general/0001' }
+            { text: 'Steve Jobs y la Caligrafía', link: '/general/0001' },
+            { text: 'La comunicación', link: '/general/0002' }
           ]
         }
       ],

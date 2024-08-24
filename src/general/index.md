@@ -6,3 +6,4 @@ En esta sección, se abordará temas relacionados con la cultura de la empresa, 
 ## Índice
 
 - [Steve Jobs y la Caligrafía](./0001)
+- [La comunicación (En progreso)](./0002)

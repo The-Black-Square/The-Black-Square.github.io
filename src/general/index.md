@@ -7,3 +7,5 @@ En esta sección, se abordará temas relacionados con la cultura de la empresa, 
 
 - [Steve Jobs y la Caligrafía](./0001)
 - [La comunicación (En progreso)](./0002)
+- [El caso Wernher von Braun y Thomas Kelly](./0003)
+- 

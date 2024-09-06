@@ -39,7 +39,8 @@ export default defineConfigWithTheme<ThemeConfig>({
             { text: 'Inicio', link: '/general/' },
             { text: 'Steve Jobs y la Caligrafía', link: '/general/0001' },
             { text: 'La comunicación (En progreso)', link: '/general/0002' },
-            { text: 'El caso Wernher von Braun y Thomas Kelly', link: '/general/0003' }
+            { text: 'El caso Wernher von Braun y Thomas Kelly', link: '/general/0003' },
+            { text: '¿Por qué hacemos lo que hacemos en el trabajo? (En progreso)', link: '/general/0004' }
           ]
         }
       ],
